@@ -1,6 +1,7 @@
 package com.andreldm.candidatus;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
@@ -47,7 +48,7 @@ public class PesquisaFragment extends Fragment {
         View.OnClickListener clickListener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // TODO: Lista de candidatos
+                startActivity(new Intent(getActivity(), ListaCandidatosActivity.class));
             }
         };
 

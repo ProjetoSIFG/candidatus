@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Candidatus</string>
-    <string name="title_activity"></string>
+    <string name="title_activity">Candidatus</string>
+    <string name="title_activity_lista_candidatos">ListaCandidatosActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

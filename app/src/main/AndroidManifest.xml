@@ -25,6 +25,10 @@
             android:name=".MainActivity"
             android:label="@string/title_activity" >
         </activity>
+        <activity
+            android:name=".ListaCandidatosActivity"
+            android:label="@string/title_activity_lista_candidatos" >
+        </activity>
     </application>
 
 </manifest>
